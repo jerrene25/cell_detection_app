@@ -1,11 +1,14 @@
-# Cell Detection App
+# 🧫 Cell Detection App
 
-Detect cells in microscope images using morphological opening & closing.
-Built with Python, OpenCV and Streamlit.
+Detect cells in a microscope slide using **morphological opening and closing** (OpenCV + Streamlit).
 
-## Setup
+### Features
+- Image upload and preprocessing
+- Morphological operations (opening & closing)
+- Cell contour detection and counting
+- Live web app built with Streamlit
 
-1. Create virtualenv
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # Windows: .\.venv\Scripts\activate
+### Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
